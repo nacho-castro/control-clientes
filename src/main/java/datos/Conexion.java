@@ -7,15 +7,10 @@ import org.apache.commons.dbcp2.BasicDataSource;
 import javax.sql.DataSource;
 
 public class Conexion {
-
-    //private static final String JDBC_URL = "jdbc:mysql://localhost:3306/control_clientes?useSSL=false&useTimezone=true&serverTimezone=UTC&allowPublicKeyRetrieval=true";
-    //private static final String JDBC_USER = "root";
-    //private static final String JDBC_PASS = "Parlaliso857";
+    private static final String JDBC_URL = "jdbc:mysql://localhost:3306/control_clientes?useSSL=false&useTimezone=true&serverTimezone=UTC&allowPublicKeyRetrieval=true";
+    private static final String JDBC_USER = "root";
+    private static final String JDBC_PASS = "Parlaliso857";
     
-    private static final String JDBC_URL = "mysql://root:GLTNuuqhyrNZBcatWhnGozoPlhdpyZOe@monorail.proxy.rlwy.net:33431/railway";
-    private static final String JDBC_USER = "root";    
-    private static final String JDBC_PASS = "GLTNuuqhyrNZBcatWhnGozoPlhdpyZOe";       
-            
     private static BasicDataSource dataSource;
 
     //Recuperar conexion a la BD
